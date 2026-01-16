@@ -11,3 +11,5 @@
 
 const objectA = { a: 10, b: true };
 constcopy0fA = objectA;
+
+a = 20;
