@@ -1,102 +1,68 @@
 //Practice
 
 // ---Завдання 1: Перевірка числа (більше/менше нуля)---
-//let a = 1;
-
-//if (a > 0) {
-// console.log('True');
-//} else {
-//a < 0(console.log('False'));
-//}
-
-//let a = 0;
-
-//if (a > 0) {
-// console.log('True');
-//} else {
-//a < 0(console.log('False'));
-//}
-
-//let a = -3;
-
-//if (a > 0) {
-// console.log('True');
-//} else {
-//a < 0(console.log('False'));
-//}
+// let value = 3;
+// console.log(value > 0);
 
 // --- Завдання 2: Перевірка рядка на рівність "test" ---
-
-//let b = 'test';
-//if (b === 'test') {
-//console.log('true');
-//}else {
-// console.log('false');
-//}
-
-//let b = 'qwerty';
-//if (b === 'test') {
-//console.log('true');
-//} else {
-// console.log('false');
-//}
-
+// let a = 'aqwerty';
+// console.log(a === 'test');
 // --- Завдання 3: Математичні дії (+/- 5) залежно від умови ---
-
-// let a = 13;
-// let result;
-// if (a > 10) {
-//   result = a - 5;
-// } else {
-//   result = a + 5;
-// }
-// console.log(result);
-
-// let a = 10;
-// let result;
-// if (a > 10) {
-//   result = a - 5;
-// } else {
-//   result = a + 5;
-// }
-// console.log(result);
-
 // let a = 1;
-// let result;
 // if (a > 10) {
-//   result = a - 5;
-// } else {
-//   result = a + 5;
+//   console.log(a - 5);
+// } else if (a < 10) {
+//   console.log(a + 5);
 // }
-// console.log(result);
+// // --- Завдання 4: Визначення місяця за числом ---
 
-// --- Завдання 4: Визначення місяця за числом ---
+// const a = Number(prompt('Введіть номер місяця (1-12)'));
+// let month;
 
-// const m = prompt('Введіть число');
-// if (m == 1) {
-//   console.log('Січень');
-// } else if (m == 2) {
-//   console.log('Лютий');
-// } else if (m == 3) {
-//   console.log('Березень');
-// } else if (m == 4) {
-//   console.log('Квітень');
-// } else if (m == 5) {
-//   console.log('Травень');
-// } else if (m == 6) {
-//   console.log('Червень');
-// } else if (m == 7) {
-//   console.log('Липень');
-// } else if (m == 8) {
-//   console.log('Серпень');
-// } else if (m == 9) {
-//   console.log('Вересень');
-// } else if (m == 10) {
-//   console.log('Жовтень');
-// } else if (m == 11) {
-//   console.log('Листопад');
-// } else if (m == 12) {
-//   console.log('Грeдень');
+// switch (a) {
+//   case 1:
+//     month = 'Січень';
+//     break;
+//   case 2:
+//     month = 'Лютий';
+//     break;
+//   case 3:
+//     month = 'Березень';
+//     break;
+//   case 4:
+//     month = 'Квітень';
+//     break;
+//   case 5:
+//     month = 'Травень';
+//     break;
+//   case 6:
+//     month = 'Червень';
+//     break;
+//   case 7:
+//     month = 'Липень';
+//     break;
+//   case 8:
+//     month = 'Серпень';
+//     break;
+//   case 9:
+//     month = 'Вересень';
+//     break;
+//   case 10:
+//     month = 'Жовтень';
+//     break;
+//   case 11:
+//     month = 'Листопад';
+//     break;
+//   case 12:
+//     month = 'Грудень';
+//     break;
+//   default:
+//     alert('Помилка: введіть число від 1 до 12');
+//     break;
+// }
+
+// if (month) {
+//   alert(`Місяць №${a} — це ${month}`);
 // }
 
 // --- Завдання 5: Сума цифр тризначного числа ---
