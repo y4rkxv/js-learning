@@ -82,10 +82,9 @@
 //   { id: 1, name: 'Tomat' },
 //   { id: 2, name: 'Cherry' },
 //   { id: 3, name: 'Orange' },
-// ];
+//  ;
 
-//Виведіть парні числа від 2 до //
-for (let i = 2; i < 10; i++) {
-  if (i % 2 == 0) continue;
-  console.log(i);
-}
+// for (let i = 2; i < 10; i++) {
+//   if (i % 2 == 0) continue;
+//   console.log(i);
+// }
