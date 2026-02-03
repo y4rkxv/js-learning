@@ -7,12 +7,23 @@
 
 // sayHi();
 
-// function sum(a, b) {
-//   return a + b;
-// }
+// const summ = (num1, num2) => {
+//   let result = num1 + num2;
+//   return result;
+// };
+
+// console.log(summ(10, 10));
+// const checkAge = function (currentAge) {
+//   if (currentAge >= 18) {
+//     console.log('Доступ дозволено');
+//   } else {
+//     console.log('Доступ заборонено');
+//   }
+// };
+// checkAge(22);
 
 // let result = sum(7, 8);
-// // console.log(result);
+// console.log(result);
 // const testFunk = function (a, b) {
 //   console.log('a :', a);
 //   console.log('b :', b);

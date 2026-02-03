@@ -138,12 +138,12 @@
 
 // userInfo.logInfo.call(Vano, 'developer', 'Lvlv');
 
-const message = function (name, stars) {
-  console.log(`${name}, Welcome to ${this.hotel}, stars ${stars}`);
-};
+// const message = function (name, stars) {
+//   console.log(`${name}, Welcome to ${this.hotel}, stars ${stars}`);
+// };
 
-const Bukovel = { hotel: 'Bukovel' };
-const Tourist = { hotel: 'Tourist' };
+// const Bukovel = { hotel: 'Bukovel' };
+// const Tourist = { hotel: 'Tourist' };
 
-message.call(Bukovel, 'Ivan', '5');
-message.call(Tourist, 'Max', '3');
+// message.call(Bukovel, 'Ivan', '5');
+// message.call(Tourist, 'Max', '3');

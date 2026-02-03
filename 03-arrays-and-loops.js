@@ -88,3 +88,14 @@
 //   if (i % 2 == 0) continue;
 //   console.log(i);
 // }
+
+// let a = 0;
+// // while (a < 5) {
+// //   a++;
+// //   console.log('a', a);
+// // }
+
+// do {
+//   console.log(a);
+//   a++;
+// } while (a < 5);

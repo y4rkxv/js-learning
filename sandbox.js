@@ -9,11 +9,11 @@
 //   i++;
 // } while (i < 5);
 
-const myObject = {
-  x: 10,
-  y: true,
-  z: 'abc',
-};
+// const myObject = {
+//   x: 10,
+//   y: true,
+//   z: 'abc',
+// };
 // for (const key in myObject) {
 //   console.log(key, myObject[key]);
 // }
@@ -21,7 +21,7 @@ const myObject = {
 // Object.keys(myObject).forEach(key => {
 //   console.log(key, myObject[key]);
 // });
-const myArray = [true, 10, 'abc', null];
-for (const key in myArray) {
-  console.log(myArray[key]);
-}
+// const myArray = [true, 10, 'abc', null];
+// for (const key in myArray) {
+//   console.log(myArray[key]);
+// }
