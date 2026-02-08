@@ -97,17 +97,23 @@
 // arraySum(arr);
 
 //-----------------------------------------------------------------------
-// Дано масив const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-// Отримати лише парні числа, результат вивести в консоль
-const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// // Дано масив const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// // Отримати лише парні числа, результат вивести в консоль
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-function evenNums(nums) {
-  for (let i = 0; i < 10; i++) {
-    if (nums[i] % 2 !== 0) continue;
-    console.log(nums[i]);
-  }
-}
-evenNums(arr);
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-let arr2 = new Array(arr);
-console.log(arr2);
+// function getEvenNumbers(nums) {
+//   const result = [];
+
+//   for (let i = 0; i < nums.length; i++) {
+//     if (nums[i] % 2 === 0) {
+//       result.push(nums[i]);
+//     }
+//   }
+
+//   return result;
+// }
+
+// const arr2 = getEvenNumbers(arr);
+// console.log(arr2);
