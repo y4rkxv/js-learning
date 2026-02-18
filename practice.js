@@ -211,3 +211,17 @@
 // let sum = num1 + num2 + num3;
 
 // alert("Сума цифр числа " + numberStr + " дорівнює: " + sum);
+
+//  16----------------------------------------------------
+// Перепишіть функцію, використовуючи '?' або '||'
+// function checkAge(age) {
+// if (age > 18) {
+// return true;
+// } else {
+// return confirm('Батьки дозволили?');
+// }
+// }
+
+function checkAge(age) {
+    if(confirm(Тобі більше 18 років?))yes()else no()
+}
