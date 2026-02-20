@@ -259,3 +259,51 @@
 //     alert('Ви скасували виконання.');
 //   },
 // );
+
+//  19-------------------------------------------------
+// 1) написати об*єкт студента який буде виводити ім*я, спеціальнісь, середній
+// бал і кількість пропущених занять
+// 2) написати метод який буде виводити цю інформацію
+// 3) написати три варіанти студентів
+// 4) прикріпити знначення за допомогою call apply bind
+
+const student = {
+  name: 'name',
+  major: 'major',
+  gpa: 0,
+  missedClassesCount: 0,
+
+  sayHi() {
+    alert(
+      `Student: ${this.name}, Major: ${this.major}, GPA: ${this.gpa}, Missed classes: ${this.missedClassesCount}`,
+    );
+  },
+};
+student.sayHi();
+
+const student1 = {
+  name: 'Anton',
+  major: 'marketing',
+  gpa: 3,
+  missedClassesCount: 0,
+};
+const student2 = {
+  name: 'Dmytro',
+  major: 'law',
+  gpa: 3.5,
+  missedClassesCount: 7,
+};
+
+const student3 = {
+  name: 'Yaroslav',
+  major: 'economy',
+  gpa: 5,
+  missedClassesCount: 0,
+};
+
+student.sayHi.call(student1);
+
+student.sayHi.apply(student2);
+
+const yaroslavHi = student.sayHi.bind(student3);
+yaroslavHi();
