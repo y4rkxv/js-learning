@@ -340,3 +340,32 @@
 // const favoriteSubjectSentence =
 //   'My favorite subject is ' + favoriteSubject + '.';
 // console.log(favoriteSubjectSentence);
+
+//------------------------------------------------------------
+
+// console.log("Hello! I'm your coding fun fact guide!");
+
+// const botName = 'Yaroslav';
+// const botLocation = 'Dnipro';
+// const favoriteLanguage = 'JavaScript';
+
+// console.log('My name is ' + botName + ' and I live on ' + botLocation + '.');
+
+// console.log('My favorite programming language is ' + favoriteLanguage + '.');
+
+// let codingFact = favoriteLanguage + ' was created in just 10 days in 1995.';
+// console.log(codingFact);
+
+// codingFact = favoriteLanguage + ' was originally called Mocha.';
+// console.log(codingFact);
+
+// codingFact = 'Almost all modern websites use ' + favoriteLanguage + '.';
+// console.log(codingFact);
+
+// console.log(
+//   'It was fun sharing these facts with you. Goodbye! - ' +
+//     botName +
+//     ' from ' +
+//     botLocation +
+//     '.',
+// );
