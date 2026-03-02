@@ -648,9 +648,9 @@
 
 // console.log('It was fun learning about the different Math methods with you!');
 
-//------------------------------------------------------------------------------------------
-// repeatStr(3, "a")  // має повернути "aaa"
-// repeatStr(5, "hi") // має повернути "hihihihihi"
+// //------------------------------------------------------------------------------------------
+// // repeatStr(3, "a")  // має повернути "aaa"
+// // repeatStr(5, "hi") // має повернути "hihihihihi"
 
 // let str = 'a';
 // let repeatStr = str.repeat(3);
@@ -659,3 +659,153 @@
 // let str = 'hi';
 // let repeatStr = str.repeat(5);
 // console.log(repeatStr);
+
+//------------------------------------------------------------------------------------------------
+// const fortune1 = "Your cat will look very cuddly today.";
+// const fortune2 = "The weather will be nice tomorrow.";
+// const fortune3 = "Be cautious of your new neighbors.";
+// const fortune4 = "You will find a new hobby soon.";
+// const fortune5 = "It would be wise to avoid the color red today.";
+
+// const randomNumber = Math.floor(Math.random() * 5) + 1;
+
+// let selectedFortune;
+
+// switch(randomNumber) {
+//   case 1:
+//     selectedFortune = fortune1;
+//     console.log(fortune1);
+//     break;
+//   case 2:
+//     selectedFortune = fortune2;
+//     console.log(fortune2);
+//     break;
+//   case 3:
+//     selectedFortune = fortune3;
+//     console.log(fortune3);
+//     break;
+//   case 4:
+//     selectedFortune = fortune4;
+//     console.log(fortune4);
+//     break;
+//   case 5:
+//     selectedFortune = fortune5;
+//     console.log(fortune5);
+//     break;
+// }
+
+// console.log(selectedFortune);
+
+//---------------------------------------------------------------------
+// function calculateSum(num1, num2) {
+//   return num1 + num2;
+// }
+
+// console.log(calculateSum(2, 5));
+// console.log(calculateSum(10, 10));
+// console.log(calculateSum(5, 5));
+
+// function calculateDifference(num1, num2) {
+//   return num1 - num2;
+// }
+
+// console.log(calculateDifference(22, 5));
+// console.log(calculateDifference(12, 1));
+// console.log(calculateDifference(17, 9));
+
+// function calculateProduct(num1, num2) {
+//   return num1 * num2;
+// }
+
+// console.log(calculateProduct(13, 5));
+
+// function calculateQuotient(num1, num2) {
+//   return num2 === 0 ? 'Error: Division by zero' : num1 / num2;
+// }
+
+// console.log(calculateQuotient(7, 11));
+// console.log(calculateQuotient(3, 0));
+
+// function calculateSquare(num) {
+//   return num ** 2;
+// }
+
+// console.log(calculateSquare(2));
+// console.log(calculateSquare(9));
+
+// function calculateSquareRoot(num) {
+//   return Math.sqrt(num);
+// }
+
+// console.log(calculateSquareRoot(25));
+// console.log(calculateSquareRoot(100));
+
+//-------------------------------------------------------
+// function booWho (value){
+//   if( typeof value==="boolean"){
+//     return true
+//   } else{
+//     return false
+//   }
+// }
+
+//-----------------------------------------------------------------------------------------
+
+// let email = 'apple.pie@example.com';
+
+// function maskEmail(email) {
+//   const atIndex = email.indexOf('@');
+//   const beforeAt = email.slice(0, atIndex);
+//   const afterAt = email.slice(atIndex);
+
+//   const first = beforeAt[0];
+//   const last = beforeAt[beforeAt.length - 1];
+
+//   const starsCount = beforeAt.length - 2;
+//   const stars = '*'.repeat(starsCount);
+
+//   return first + stars + last + afterAt;
+// }
+
+// console.log(maskEmail(email));
+
+//-------------------------------------------------------------------------------
+// const minIncomeForDuplex = 60000;
+// const minCreditScoreForDuplex = 700;
+
+// const minIncomeForCondo = 45000;
+// const minCreditScoreForCondo = 680;
+
+// const minIncomeForCar = 30000;
+// const minCreditScoreForCar = 650;
+
+// function getLoanMessage(annualIncome, creditScore) {
+//   if (
+//     creditScore >= minCreditScoreForDuplex &&
+//     annualIncome >= minIncomeForDuplex
+//   ) {
+//     return 'You qualify for a duplex, condo, and car loan.';
+//   } else if (
+//     annualIncome >= minIncomeForCondo &&
+//     creditScore >= minCreditScoreForCondo
+//   ) {
+//     return 'You qualify for a condo and car loan.';
+//   } else if (
+//     annualIncome >= minIncomeForCar &&
+//     creditScore >= minCreditScoreForCar
+//   ) {
+//     return 'You qualify for a car loan.';
+//   } else {
+//     return "You don't qualify for any loans.";
+//   }
+// }
+
+// const duplexLoanMsg = getLoanMessage(85000, 850);
+// const condoLoanMsg = getLoanMessage(65000, 690);
+// const carLoanMsg = getLoanMessage(45000, 660);
+// const noLoanMsg = getLoanMessage(25000, 550);
+
+// console.log(duplexLoanMsg);
+// console.log(condoLoanMsg);
+// console.log(carLoanMsg);
+// console.log(noLoanMsg);
