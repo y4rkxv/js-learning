@@ -809,3 +809,50 @@
 // console.log(condoLoanMsg);
 // console.log(carLoanMsg);
 // console.log(noLoanMsg);
+
+//------------------------------------------------------
+// let count = 0;
+
+// function cardCounter(card) {
+//   if (card === 2 || card === 3 || card === 4 || card === 5 || card === 6) {
+//     count++;
+//   } else if (card === 7 || card === 8 || card === 9) {
+//   } else if (
+//     card === 10 ||
+//     card === 'J' ||
+//     card === 'Q' ||
+//     card === 'K' ||
+//     card === 'A'
+//   ) {
+//     count--;
+//   }
+
+//   if (count > 0) {
+//     return `${count} Bet`;
+//   } else {
+//     return `${count} Hold`;
+//   }
+// }
+
+// console.log(cardCounter(2));
+// console.log(cardCounter(7));
+// console.log(cardCounter(10));
+// console.log(cardCounter('K'));
+
+// ---------------------------------------------------------------------------------
+// function isLeapYear(number) {
+//   if (number % 400 === 0) {
+//     return `${number} is a leap year.`;
+//   } else if (number % 100 === 0) {
+//     return `${number} is not a leap year.`;
+//   } else if (number % 4 === 0) {
+//     return `${number} is a leap year.`;
+//   } else {
+//     return `${number} is not a leap year.`;
+//   }
+// }
+
+// const year = 2026;
+// const result = isLeapYear(year);
+
+// console.log(result);
