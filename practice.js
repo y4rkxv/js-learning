@@ -856,3 +856,48 @@
 // const result = isLeapYear(year);
 
 // console.log(result);
+
+//-------------------------------------------------------------------------------
+// function truncateString(string, number) {
+//   if (string.length > number) {
+//     const short = string.slice(0, number) + '...';
+//     return short;
+//   } else {
+//     return string;
+//   }
+// }
+
+//-----------------------------------------------------------------------------------
+// function confirmEnding(string1, string2) {
+//   const end = string1.slice(-string2.length);
+//   return end === string2;
+// }
+
+//--------------------------------------------------------------------------
+// const names = [
+//   'Hole-in-one!',
+//   'Eagle',
+//   'Birdie',
+//   'Par',
+//   'Bogey',
+//   'Double Bogey',
+//   'Go Home!',
+// ];
+
+// function golfScore(par, strokes) {
+//   if (strokes === 1) {
+//     return names[0];
+//   } else if (strokes <= par - 2) {
+//     return names[1];
+//   } else if (strokes === par - 1) {
+//     return names[2];
+//   } else if (strokes === par) {
+//     return names[3];
+//   } else if (strokes === par + 1) {
+//     return names[4];
+//   } else if (strokes === par + 2) {
+//     return names[5];
+//   } else {
+//     return names[6];
+//   }
+// }
