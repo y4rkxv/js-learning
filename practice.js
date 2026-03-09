@@ -968,3 +968,60 @@
 // recipe3.difficultyLevel = getDifficultyLevel(recipe3.cookingTime);
 
 // console.log(recipes);
+
+//------------------------------------------------------------------------------------------------
+
+// const question1 = {
+//   category: "Science",
+//   question: "What is the chemical symbol for water?",
+//   choices: ["H2O", "CO2", "O2"],
+//   answer: "H2O"
+// };
+
+// const question2 = {
+//   category: "Geography",
+//   question: "What is the capital of France?",
+//   choices: ["Berlin", "Madrid", "Paris"],
+//   answer: "Paris"
+// };
+
+// const question3 = {
+//   category: "History",
+//   question: "In what year did World War II end?",
+//   choices: ["1943", "1945", "1947"],
+//   answer: "1945"
+// };
+
+// const question4 = {
+//   category: "Technology",
+//   question: "What does 'HTML' stand for?",
+//   choices: ["HyperText Markup Language", "HighText Machine Language", "HyperTool Multi Language"],
+//   answer: "HyperText Markup Language"
+// };
+
+// const question5 = {
+//   category: "Math",
+//   question: "What is the value of Pi rounded to two decimal places?",
+//   choices: ["3.12", "3.14", "3.16"],
+//   answer: "3.14"
+// };
+
+// const questions = [question1, question2, question3, question4, question5];
+
+// function getRandomQuestion(questions) {
+//   const randomIndex = Math.floor(Math.random() * questions.length);
+//   return questions[randomIndex];
+// }
+
+// function getRandomComputerChoice(choices) {
+//   const randomIndex = Math.floor(Math.random() * choices.length);
+//   return choices[randomIndex];
+// }
+
+// function getResults(question, computerChoice) {
+//   if (computerChoice === question.answer) {
+//     return "The computer's choice is correct!";
+//   } else {
+//     return `The computer's choice is wrong. The correct answer is: ${question.answer}`;
+//   }
+// }
