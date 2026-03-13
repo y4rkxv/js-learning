@@ -1091,3 +1091,27 @@
 
 // const wordCount = getWordCount('I love freeCodeCamp');
 // console.log(`Word Count: ${wordCount}`);
+
+//---------------------------------------------------------------------
+// const num = 7
+// function factorialCalculator (num){
+//   let result = 1
+//   for (let i=1 ; i <= num; i++) {
+// result = result*i
+// }
+// return result
+// }
+
+// const factorial = factorialCalculator(num)
+// const resultMsg = `Factorial of ${num} is ${factorial}`
+// console.log(resultMsg)
+
+//---------------------------------------------------------------------------------------------
+// function mutation(arr) {
+//     for (let i = 0; i < arr[1].length; i++) {
+//         if (!arr[0].toLowerCase().includes(arr[1][i].toLowerCase())) {
+//             return false
+//         }
+//     }
+//     return true  // ← поза циклом
+// }
