@@ -1115,3 +1115,28 @@
 //     }
 //     return true  // ← поза циклом
 // }
+
+//-------------------------------------------------------------------------------
+// function chunkArrayInGroups(arr, num) {
+//   const result = [];
+//   for (let i = 0; i < arr.length; i += num) {
+//     result.push(arr.slice(i, i + num));
+//   }
+//   return result;
+// }
+
+//--------------------------------------------------------------------
+// function lookUpProfile(name, prop) {
+//   for (let i = 0; i < contacts.length; i++) {
+//     if (contacts[i].firstName === name) {
+
+//       if (contacts[i].hasOwnProperty(prop)) {
+
+//         return contacts[i][prop];
+//       } else {
+//         return 'No such property';
+//     }
+//   }
+
+//   return 'No such contact';
+// }
