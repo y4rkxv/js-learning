@@ -1387,3 +1387,38 @@
 // }
 
 // console.log(getTotalPages(library));
+
+//------------------------------------------------------
+// const books = [
+//   {
+//     title: 'Кобзар',
+//     authorName: 'Тарас Шевченко',
+//     releaseYear: 1840,
+//   },
+//   {
+//     title: 'Тіні забутих предків',
+//     authorName: 'Михайло Коцюбинський',
+//     releaseYear: 1911,
+//   },
+//   {
+//     title: 'Місто',
+//     authorName: "Валер'ян Підмогильний",
+//     releaseYear: 1928,
+//   },
+// ];
+
+// function sortByYear(book1, book2) {
+//   if (book1.releaseYear < book2.releaseYear) {
+//     return -1;
+//   } else if (book1.releaseYear > book2.releaseYear) {
+//     return 1;
+//   } else if (book1.releaseYear === book2.releaseYear) {
+//     return 0;
+//   }
+// }
+
+// const filteredBooks = books.filter(book => book.releaseYear <= 1920);
+
+// filteredBooks.sort(sortByYear);
+
+// console.log(filteredBooks);
