@@ -1422,3 +1422,22 @@
 // filteredBooks.sort(sortByYear);
 
 // console.log(filteredBooks);
+
+//---------------------------------------------------------------
+// function getIndexToIns(arr, num) {
+//   const sorted = arr.sort((a, b) => a - b);
+//   const index = sorted.findIndex(el => el >= num);
+//   return index === -1 ? sorted.length : index;
+// }
+
+//------------------------------------------------------
+
+// function diffArray(arr1, arr2) {
+//   const onlyInArr1 = arr1.filter(el => !arr2.includes(el));
+//   const onlyInArr2 = arr2.filter(el => !arr1.includes(el));
+//   return onlyInArr1.concat(onlyInArr2);
+// }
+//--------------------------------------------------------
+// function destroyer(arr, ...args) {
+//   return arr.filter(item => !args.includes(item));
+// }
