@@ -1508,3 +1508,155 @@
 // const btns = document.querySelectorAll(".emoji-btn");
 // btns.forEach(btn => {
 // btn.addEventListener("click", () => updateCount(btn))});
+
+//------------------------------------------------------
+// const manifest = {
+//   containerId: 1,
+//   destination: 'Monterey, California, USA',
+//   weight: 831,
+//   unit: 'lb',
+//   hazmat: false,
+// };
+
+// function normalizeUnits(manifest) {
+//   if (manifest.unit === 'lb') {
+//     return {
+//       ...manifest,
+//       weight: manifest.weight * 0.45,
+//       unit: 'kg',
+//     };
+//   }
+//   return { ...manifest };
+// }
+
+// function validateManifest(manifest) {
+//   const errors = {};
+
+//   if (manifest.containerId === undefined) {
+//     errors.containerId = 'Missing';
+//   } else if (
+//     !Number.isInteger(manifest.containerId) ||
+//     manifest.containerId <= 0
+//   ) {
+//     errors.containerId = 'Invalid';
+//   }
+
+//   if (manifest.destination === undefined) {
+//     errors.destination = 'Missing';
+//   } else if (
+//     typeof manifest.destination !== 'string' ||
+//     manifest.destination.trim() === ''
+//   ) {
+//     errors.destination = 'Invalid';
+//   }
+
+//   if (manifest.weight === undefined) {
+//     errors.weight = 'Missing';
+//   } else if (
+//     typeof manifest.weight !== 'number' ||
+//     Number.isNaN(manifest.weight) ||
+//     manifest.weight <= 0
+//   ) {
+//     errors.weight = 'Invalid';
+//   }
+
+//   if (manifest.unit === undefined) {
+//     errors.unit = 'Missing';
+//   } else if (manifest.unit !== 'lb' && manifest.unit !== 'kg') {
+//     errors.unit = 'Invalid';
+//   }
+
+//   if (manifest.hazmat === undefined) {
+//     errors.hazmat = 'Missing';
+//   } else if (typeof manifest.hazmat !== 'boolean') {
+//     errors.hazmat = 'Invalid';
+//   }
+
+//   return errors;
+// }
+
+// function processManifest(manifest) {
+
+//   const errors = validateManifest(manifest);
+
+//   const isValid = Object.keys(errors).length === 0;
+
+//   if (isValid) {
+
+//     console.log(`Validation success: ${manifest.containerId}`);
+
+//     const normalizedManifest = normalizeUnits(manifest);
+
+//     console.log(`Total weight: ${normalizedManifest.weight} kg`);
+//   } else {
+
+//     console.log(`Validation error: ${manifest.containerId}`);
+
+//     console.log(errors);
+//   }
+// }
+//-----------------------------------------------------------------
+// function sumPrimes(num) {
+//   let sum = 0;
+
+//   for (let i = 2; i <= num; i++) {
+//     let isPrime = true;
+
+//     for (let j = 2; j <= Math.sqrt(i); j++) {
+//       if (i % j === 0) {
+//         isPrime = false;
+//         break;
+//       }
+//     }
+
+//     if (isPrime) {
+//       sum += i;
+//     }
+//   }
+
+//   return sum;
+// }
+
+// const summ = 2000
+// const month = 12
+// const p = 1000
+
+// const credit = (summ, month, p) => {
+//     return summ+ p * month
+// }
+// console.log (credit(summ, month, p))
+
+class Bank {
+  static type = 'bank';
+  constructor(options) {
+    this.summ = options.summ;
+    this.month = options.month;
+    this.p = options.p;
+  }
+  credit() {
+    return console.log(this.summ + this.p * this.month);
+  }
+}
+
+// const userBank = new Bank({
+//   summ: 30000,
+//   month: 5,
+//   p: 500,
+// });
+
+// console.log(userBank.credit);
+
+class NewBank extends Bank {
+  constructor(options) {
+    this.card = options.card;
+  }
+}
+
+const aval = new NewBank({
+  summ: 30000,
+  month: 5,
+  p: 500,
+  card: true,
+});
+
+console.log(aval.card);
