@@ -1638,25 +1638,25 @@ class Bank {
   }
 }
 
-// const userBank = new Bank({
+// // const userBank = new Bank({
+// //   summ: 30000,
+// //   month: 5,
+// //   p: 500,
+// // });
+
+// // console.log(userBank.credit);
+
+// class NewBank extends Bank {
+//   constructor(options) {
+//     this.card = options.card;
+//   }
+// }
+
+// const aval = new NewBank({
 //   summ: 30000,
 //   month: 5,
 //   p: 500,
+//   card: true,
 // });
 
-// console.log(userBank.credit);
-
-class NewBank extends Bank {
-  constructor(options) {
-    this.card = options.card;
-  }
-}
-
-const aval = new NewBank({
-  summ: 30000,
-  month: 5,
-  p: 500,
-  card: true,
-});
-
-console.log(aval.card);
+// console.log(aval.card);
