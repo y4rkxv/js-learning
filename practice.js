@@ -1660,3 +1660,19 @@ class Bank {
 // });
 
 // console.log(aval.card);
+
+//--------------------------------------------------------
+// function createNewSum(n) {
+//   return function () {
+//     console.log(10 * n);
+//   };
+// }
+
+// const calc = createNewSum(5)
+// calc()
+
+function createNewNuber(n) {
+  return function (num) {
+    return n + number;
+  };
+}
