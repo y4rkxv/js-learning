@@ -1671,8 +1671,88 @@ class Bank {
 // const calc = createNewSum(5)
 // calc()
 
-function createNewNuber(n) {
-  return function (num) {
-    return n + number;
-  };
-}
+// function createNewNuber(n) {
+//   return function (num) {
+//     return n + number;
+//   };
+// }
+
+// function t1(){
+// let a= 0;
+// return function (){
+//  a = a + 1
+//   return a ;
+
+// }
+// }
+// let b = t1();
+// let c = t1();
+// console.log(b);
+// console.log(b());
+// console.log(b());
+// console.log(b());
+
+// console.log(c());
+// console.log(c());
+// console.log(c());
+
+// // console.log(one())
+// // console.log(one())
+// // a=6
+// // console.log(one())
+
+// const tiger = {
+//   species: 'Tiger',
+//   age: 5,
+//   isEndangered: true,
+// };
+
+// const elephant = {
+//   species: 'Elephant',
+//   age: 10,
+//   isEndangered: true,
+// };
+
+// const getSpecies = animal => {
+//   return animal.species;
+// };
+
+// console.log(getSpecies(tiger));
+
+// const getAge = animal => {
+//   return animal.age;
+// };
+
+// console.log(getAge(tiger));
+
+// const addHabitat = (animal, habitat) => {
+//   animal.habitat = habitat;
+//   return animal;
+// };
+
+// console.log(addHabitat(tiger, 'Rainforest'));
+
+// const updateAge = (animal, newAge) => {
+//   animal.age = newAge;
+//   return animal;
+// };
+
+// console.log(updateAge(elephant, 12));
+
+// const removeEndangeredStatus = animal => {
+//   delete animal.isEndangered;
+//   return animal;
+// };
+
+// console.log(removeEndangeredStatus(tiger));
+
+// const hasHabitat = animal => {
+//   return animal.hasOwnProperty('habitat');
+// };
+
+// console.log(hasHabitat(tiger));
+// console.log(hasHabitat(elephant));
+
+// function getProperty(animal, propertyName) {
+//   return animal[propertyName];
+// }
