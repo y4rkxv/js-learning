@@ -1626,17 +1626,17 @@
 // }
 // console.log (credit(summ, month, p))
 
-class Bank {
-  static type = 'bank';
-  constructor(options) {
-    this.summ = options.summ;
-    this.month = options.month;
-    this.p = options.p;
-  }
-  credit() {
-    return console.log(this.summ + this.p * this.month);
-  }
-}
+// class Bank {
+//   static type = 'bank';
+//   constructor(options) {
+//     this.summ = options.summ;
+//     this.month = options.month;
+//     this.p = options.p;
+//   }
+//   credit() {
+//     return console.log(this.summ + this.p * this.month);
+//   }
+// }
 
 // // const userBank = new Bank({
 // //   summ: 30000,
@@ -1755,4 +1755,19 @@ class Bank {
 
 // function getProperty(animal, propertyName) {
 //   return animal[propertyName];
+// }
+
+// function largestOfAll(arr){
+//   const result = []
+//   for (i = 0; i < arr.length; i++){
+//     let largest = arr[i][0]
+//     for (j = 0; j < arr[i].length; j++){
+//       if(arr[i][j] > largest){
+//         largest = arr[i][j]
+//       }
+//     }
+//     result.push(largest)
+//   }
+// return result
+
 // }
