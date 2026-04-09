@@ -1771,3 +1771,68 @@
 // return result
 
 // }
+
+//-----------------------------------------------------------------------
+// const favoriteIcon = document.querySelectorAll('.favorite-icon');
+// favoriteIcon.forEach(button => {
+//   button.addEventListener('click', function () {
+//     if (button.classList.contains('filled')) {
+//       button.classList.remove('filled');
+//       button.innerHTML = '&#9825;';
+//     } else {
+//       button.classList.add('filled');
+//       button.innerHTML = '&#10084;';
+//     }
+//   });
+// });
+
+// class CircleBox {
+//   constructor(selector) {
+//     this.$el = document.querySelector(selector);
+//   }
+
+//   hide() {}
+//   show() {}
+// }
+
+// class CircleItem extends CircleBox {
+//   constructor(options) {
+//     super(options.selector);
+//     this.$el.style.width = options.size + 'px';
+//     this.$el.style.height = options.size + 'px';
+//     this.$el.style.borderRadius = '50%';
+//     this.$el.style.backgroundColor = options.color;
+//   }
+// }
+
+// const CircleRed = new CircleItem({
+//   selector: '#circleRed',
+//   color: 'red',
+//   size: 50,
+// });
+
+class Student {
+  planet = 'Earth';
+  country = 'USA';
+
+  constructor(name, age) {
+    ((this.name = name), (this.age = age));
+  }
+
+  logAge() {
+    console.log(this.age);
+  }
+
+  set city(value) {
+    this._city = value;
+  }
+
+  get city() {
+    return this._city;
+  }
+}
+
+const firstStudent = new Student('Jack', 25);
+
+firstStudent.city = 'Memphis';
+console.log(firstStudent.city);
