@@ -1811,28 +1811,28 @@
 //   size: 50,
 // });
 
-class Student {
-  planet = 'Earth';
-  country = 'USA';
+// class Student {
+//   planet = 'Earth';
+//   country = 'USA';
 
-  constructor(name, age) {
-    ((this.name = name), (this.age = age));
-  }
+//   constructor(name, age) {
+//     ((this.name = name), (this.age = age));
+//   }
 
-  logAge() {
-    console.log(this.age);
-  }
+//   logAge() {
+//     console.log(this.age);
+//   }
 
-  set city(value) {
-    this._city = value;
-  }
+//   set city(value) {
+//     this._city = value;
+//   }
 
-  get city() {
-    return this._city;
-  }
-}
+//   get city() {
+//     return this._city;
+//   }
+// }
 
-const firstStudent = new Student('Jack', 25);
+// const firstStudent = new Student('Jack', 25);
 
-firstStudent.city = 'Memphis';
-console.log(firstStudent.city);
+// firstStudent.city = 'Memphis';
+// console.log(firstStudent.city);
