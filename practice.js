@@ -1836,3 +1836,87 @@
 
 // firstStudent.city = 'Memphis';
 // console.log(firstStudent.city);'
+
+
+// class CircleBox {
+//     constructor(selector){
+
+//         this.$el=document.querySelector(selector)
+     
+//     }
+//      hide(){
+//     this.$el.style.display = 'none'}
+
+//     show(){ this.$el.style.display = 'block'}
+// }
+
+// class CircleItem extends CircleBox {
+//     constructor(options){
+//         super(options.selector)
+//         this.$el.style.width = options.size + "px";
+//         this.$el.style.height = options.size + "px"
+//         this.$el.style.borderRadius = "50%";
+//         this.$el.style.background = options.color
+//     }
+// }
+
+// const CircleRed = new CircleItem({
+//     selector: "#circleRed",
+//     color: "red",
+//     size: 50
+// })
+
+// const CircleYellow = new CircleItem({
+//     selector: "#circleYellow",
+//     color: "yellow",
+//     size: 50
+// })
+
+// const CircleGreen = new CircleItem({
+//     selector: "#circleGreen",
+//     color: "green",
+//     size: 50
+// })
+
+// function Car (name, color) {
+//     this.name = name;
+//     this.color = color
+// }
+// Car.prototype.message = function() {
+//     console.log (`${this.name} is ${this.color} color`)
+// }
+
+// const BMW = new Car ("bmw", "red")
+// const opel = new Car ("opel", "green")
+
+// let message = {
+//     messageHello(){
+//         console.log(`Hello, ${this.name}`)
+//     },
+
+// messageBye(){
+//     console.log(`Bye, ${this.name}`)
+// },
+
+// }
+
+// class User{ 
+//     constructor(name){
+//         this.name = name
+//     }
+
+    
+// }
+
+// Object.assign(User.prototype, message)
+
+// new User('Ivan').messageHello()
+
+// function showPrimes(n){
+//     for(let i = 2; i < n; i++){ 
+
+//         for (let j=2; j<1; j++){
+//         if( i % j == 0) continue }
+//         alert(i)
+//     }
+// }
