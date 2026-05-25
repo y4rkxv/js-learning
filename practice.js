@@ -1920,3 +1920,47 @@
 //         alert(i)
 //     }
 // }
+
+
+// let elem = document.getElementById('elem');
+// elem.style.background="green"
+
+
+// let elements = document.querySelectorAll('ul>li:last-child')
+// for(element of elements){
+//     console.log(element)
+// // }
+
+
+// let elements = document.querySelector('li')
+//     console.log(element)
+
+
+// let element = document.getElementsByTagName("div") 
+//     console.log(element)
+
+// 
+
+// let message = document.getElementById('message');
+// console.log(message.value)
+
+// let text = document.querySelector(".text")
+// console.log(text)
+
+// text.textContent = "Hello"
+
+// text.style.backgroundColor = "red"
+// let myElement = document.querySelector("#text");
+
+// console.log()
+
+const item = document.createElement("a");
+item.href ="#";
+item.classList.add("btn")
+item.textContent = "3";
+
+const nav = document.querySelector('.nav')
+nav.appendChild(item)
+
+
+const header = document.createElement('h1')
