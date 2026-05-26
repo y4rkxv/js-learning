@@ -1954,13 +1954,20 @@
 
 // console.log()
 
-const item = document.createElement("a");
-item.href ="#";
-item.classList.add("btn")
-item.textContent = "3";
+// const item = document.createElement("a");
+// item.href ="#";
+// item.classList.add("btn")
+// item.textContent = "3";
 
-const nav = document.querySelector('.nav')
-nav.appendChild(item)
+// const nav = document.querySelector('.nav')
+// nav.appendChild(item)
 
 
-const header = document.createElement('h1')
+// const header = document.createElement('h1')
+// header.textContent="Header"
+
+// const container = document.querySelector('.container');
+// // container
+
+// console.log('Cookie:', document.cookie)
+// document.cookie = "pgokfpogjoihgjtdihojdoihjthoijk"
